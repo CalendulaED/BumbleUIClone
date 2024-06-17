@@ -1,0 +1,498 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F3F9D9FC2C1104270037FC71 /* BumbleCloneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F9D9FB2C1104270037FC71 /* BumbleCloneApp.swift */; };
+		F3F9D9FE2C1104270037FC71 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F9D9FD2C1104270037FC71 /* ContentView.swift */; };
+		F3F9DA002C1104280037FC71 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3F9D9FF2C1104280037FC71 /* Assets.xcassets */; };
+		F3F9DA032C1104280037FC71 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3F9DA022C1104280037FC71 /* Preview Assets.xcassets */; };
+		F3F9DA0E2C1104C80037FC71 /* ImageLoaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F9DA0D2C1104C80037FC71 /* ImageLoaderView.swift */; };
+		F3F9DA112C1104E90037FC71 /* SwiftfulRouting in Frameworks */ = {isa = PBXBuildFile; productRef = F3F9DA102C1104E90037FC71 /* SwiftfulRouting */; };
+		F3F9DA142C1104F00037FC71 /* SwiftfulUI in Frameworks */ = {isa = PBXBuildFile; productRef = F3F9DA132C1104F00037FC71 /* SwiftfulUI */; };
+		F3F9DA172C1104FA0037FC71 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = F3F9DA162C1104FA0037FC71 /* SDWebImageSwiftUI */; };
+		F3F9DA192C1105180037FC71 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F9DA182C1105180037FC71 /* Constants.swift */; };
+		F3F9DA1B2C11052F0037FC71 /* DatabaseHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F9DA1A2C11052F0037FC71 /* DatabaseHelper.swift */; };
+		F3F9DA1D2C11054D0037FC71 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F9DA1C2C11054D0037FC71 /* User.swift */; };
+		F3F9DA1F2C1105610037FC71 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F9DA1E2C1105610037FC71 /* Product.swift */; };
+		F3F9DA212C110AA00037FC71 /* BumbleHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F9DA202C110AA00037FC71 /* BumbleHomeView.swift */; };
+		F3F9DA232C1128510037FC71 /* BumbleFilterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F9DA222C1128510037FC71 /* BumbleFilterView.swift */; };
+		F3F9DA252C112FA20037FC71 /* BumbleCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F9DA242C112FA20037FC71 /* BumbleCardView.swift */; };
+		F3F9DA272C1139C00037FC71 /* BumbleHeartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F9DA262C1139C00037FC71 /* BumbleHeartView.swift */; };
+		F3F9DA292C16487E0037FC71 /* InterestPillView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F9DA282C16487E0037FC71 /* InterestPillView.swift */; };
+		F3F9DA2B2C164A7F0037FC71 /* InterestPillGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F9DA2A2C164A7F0037FC71 /* InterestPillGridView.swift */; };
+		F3F9DA2D2C17E4ED0037FC71 /* BumbleProfileImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F9DA2C2C17E4ED0037FC71 /* BumbleProfileImageCell.swift */; };
+		F3F9DA2F2C17E9C40037FC71 /* BumbleChatPreviewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F9DA2E2C17E9C40037FC71 /* BumbleChatPreviewCell.swift */; };
+		F3F9DA312C18DAF40037FC71 /* BumbleChatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F9DA302C18DAF40037FC71 /* BumbleChatsView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F3F9D9F82C1104270037FC71 /* BumbleClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BumbleClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3F9D9FB2C1104270037FC71 /* BumbleCloneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BumbleCloneApp.swift; sourceTree = "<group>"; };
+		F3F9D9FD2C1104270037FC71 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F3F9D9FF2C1104280037FC71 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F3F9DA022C1104280037FC71 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F3F9DA0D2C1104C80037FC71 /* ImageLoaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoaderView.swift; sourceTree = "<group>"; };
+		F3F9DA182C1105180037FC71 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		F3F9DA1A2C11052F0037FC71 /* DatabaseHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseHelper.swift; sourceTree = "<group>"; };
+		F3F9DA1C2C11054D0037FC71 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		F3F9DA1E2C1105610037FC71 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		F3F9DA202C110AA00037FC71 /* BumbleHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BumbleHomeView.swift; sourceTree = "<group>"; };
+		F3F9DA222C1128510037FC71 /* BumbleFilterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BumbleFilterView.swift; sourceTree = "<group>"; };
+		F3F9DA242C112FA20037FC71 /* BumbleCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BumbleCardView.swift; sourceTree = "<group>"; };
+		F3F9DA262C1139C00037FC71 /* BumbleHeartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BumbleHeartView.swift; sourceTree = "<group>"; };
+		F3F9DA282C16487E0037FC71 /* InterestPillView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterestPillView.swift; sourceTree = "<group>"; };
+		F3F9DA2A2C164A7F0037FC71 /* InterestPillGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterestPillGridView.swift; sourceTree = "<group>"; };
+		F3F9DA2C2C17E4ED0037FC71 /* BumbleProfileImageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BumbleProfileImageCell.swift; sourceTree = "<group>"; };
+		F3F9DA2E2C17E9C40037FC71 /* BumbleChatPreviewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BumbleChatPreviewCell.swift; sourceTree = "<group>"; };
+		F3F9DA302C18DAF40037FC71 /* BumbleChatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BumbleChatsView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F3F9D9F52C1104270037FC71 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3F9DA172C1104FA0037FC71 /* SDWebImageSwiftUI in Frameworks */,
+				F3F9DA142C1104F00037FC71 /* SwiftfulUI in Frameworks */,
+				F3F9DA112C1104E90037FC71 /* SwiftfulRouting in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F3F9D9EF2C1104270037FC71 = {
+			isa = PBXGroup;
+			children = (
+				F3F9D9FA2C1104270037FC71 /* BumbleClone */,
+				F3F9D9F92C1104270037FC71 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F3F9D9F92C1104270037FC71 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F3F9D9F82C1104270037FC71 /* BumbleClone.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F3F9D9FA2C1104270037FC71 /* BumbleClone */ = {
+			isa = PBXGroup;
+			children = (
+				F3F9DA0C2C1104AF0037FC71 /* Core */,
+				F3F9DA0B2C1104A60037FC71 /* Components */,
+				F3F9DA0A2C11049B0037FC71 /* Models */,
+				F3F9DA092C1104950037FC71 /* Shared */,
+				F3F9D9FB2C1104270037FC71 /* BumbleCloneApp.swift */,
+				F3F9D9FD2C1104270037FC71 /* ContentView.swift */,
+				F3F9D9FF2C1104280037FC71 /* Assets.xcassets */,
+				F3F9DA012C1104280037FC71 /* Preview Content */,
+			);
+			path = BumbleClone;
+			sourceTree = "<group>";
+		};
+		F3F9DA012C1104280037FC71 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F3F9DA022C1104280037FC71 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F3F9DA092C1104950037FC71 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				F3F9DA0D2C1104C80037FC71 /* ImageLoaderView.swift */,
+				F3F9DA182C1105180037FC71 /* Constants.swift */,
+				F3F9DA1A2C11052F0037FC71 /* DatabaseHelper.swift */,
+				F3F9DA1C2C11054D0037FC71 /* User.swift */,
+				F3F9DA1E2C1105610037FC71 /* Product.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		F3F9DA0A2C11049B0037FC71 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F3F9DA0B2C1104A60037FC71 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				F3F9DA222C1128510037FC71 /* BumbleFilterView.swift */,
+				F3F9DA242C112FA20037FC71 /* BumbleCardView.swift */,
+				F3F9DA2E2C17E9C40037FC71 /* BumbleChatPreviewCell.swift */,
+				F3F9DA2C2C17E4ED0037FC71 /* BumbleProfileImageCell.swift */,
+				F3F9DA262C1139C00037FC71 /* BumbleHeartView.swift */,
+				F3F9DA282C16487E0037FC71 /* InterestPillView.swift */,
+				F3F9DA2A2C164A7F0037FC71 /* InterestPillGridView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		F3F9DA0C2C1104AF0037FC71 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				F3F9DA202C110AA00037FC71 /* BumbleHomeView.swift */,
+				F3F9DA302C18DAF40037FC71 /* BumbleChatsView.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F3F9D9F72C1104270037FC71 /* BumbleClone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3F9DA062C1104280037FC71 /* Build configuration list for PBXNativeTarget "BumbleClone" */;
+			buildPhases = (
+				F3F9D9F42C1104270037FC71 /* Sources */,
+				F3F9D9F52C1104270037FC71 /* Frameworks */,
+				F3F9D9F62C1104270037FC71 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BumbleClone;
+			packageProductDependencies = (
+				F3F9DA102C1104E90037FC71 /* SwiftfulRouting */,
+				F3F9DA132C1104F00037FC71 /* SwiftfulUI */,
+				F3F9DA162C1104FA0037FC71 /* SDWebImageSwiftUI */,
+			);
+			productName = BumbleClone;
+			productReference = F3F9D9F82C1104270037FC71 /* BumbleClone.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F3F9D9F02C1104270037FC71 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					F3F9D9F72C1104270037FC71 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = F3F9D9F32C1104270037FC71 /* Build configuration list for PBXProject "BumbleClone" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F3F9D9EF2C1104270037FC71;
+			packageReferences = (
+				F3F9DA0F2C1104E90037FC71 /* XCRemoteSwiftPackageReference "SwiftfulRouting" */,
+				F3F9DA122C1104F00037FC71 /* XCRemoteSwiftPackageReference "SwiftfulUI" */,
+				F3F9DA152C1104FA0037FC71 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+			);
+			productRefGroup = F3F9D9F92C1104270037FC71 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F3F9D9F72C1104270037FC71 /* BumbleClone */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F3F9D9F62C1104270037FC71 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3F9DA032C1104280037FC71 /* Preview Assets.xcassets in Resources */,
+				F3F9DA002C1104280037FC71 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F3F9D9F42C1104270037FC71 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3F9DA0E2C1104C80037FC71 /* ImageLoaderView.swift in Sources */,
+				F3F9DA1B2C11052F0037FC71 /* DatabaseHelper.swift in Sources */,
+				F3F9DA212C110AA00037FC71 /* BumbleHomeView.swift in Sources */,
+				F3F9DA2B2C164A7F0037FC71 /* InterestPillGridView.swift in Sources */,
+				F3F9DA292C16487E0037FC71 /* InterestPillView.swift in Sources */,
+				F3F9DA312C18DAF40037FC71 /* BumbleChatsView.swift in Sources */,
+				F3F9DA252C112FA20037FC71 /* BumbleCardView.swift in Sources */,
+				F3F9DA1D2C11054D0037FC71 /* User.swift in Sources */,
+				F3F9DA272C1139C00037FC71 /* BumbleHeartView.swift in Sources */,
+				F3F9D9FE2C1104270037FC71 /* ContentView.swift in Sources */,
+				F3F9DA232C1128510037FC71 /* BumbleFilterView.swift in Sources */,
+				F3F9DA2F2C17E9C40037FC71 /* BumbleChatPreviewCell.swift in Sources */,
+				F3F9D9FC2C1104270037FC71 /* BumbleCloneApp.swift in Sources */,
+				F3F9DA192C1105180037FC71 /* Constants.swift in Sources */,
+				F3F9DA2D2C17E4ED0037FC71 /* BumbleProfileImageCell.swift in Sources */,
+				F3F9DA1F2C1105610037FC71 /* Product.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F3F9DA042C1104280037FC71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F3F9DA052C1104280037FC71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F3F9DA072C1104280037FC71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BumbleClone/Preview Content\"";
+				DEVELOPMENT_TEAM = 5684J7ZB78;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.awuawuawu.BumbleClone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F3F9DA082C1104280037FC71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BumbleClone/Preview Content\"";
+				DEVELOPMENT_TEAM = 5684J7ZB78;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.awuawuawu.BumbleClone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F3F9D9F32C1104270037FC71 /* Build configuration list for PBXProject "BumbleClone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3F9DA042C1104280037FC71 /* Debug */,
+				F3F9DA052C1104280037FC71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3F9DA062C1104280037FC71 /* Build configuration list for PBXNativeTarget "BumbleClone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3F9DA072C1104280037FC71 /* Debug */,
+				F3F9DA082C1104280037FC71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F3F9DA0F2C1104E90037FC71 /* XCRemoteSwiftPackageReference "SwiftfulRouting" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SwiftfulThinking/SwiftfulRouting.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.3.4;
+			};
+		};
+		F3F9DA122C1104F00037FC71 /* XCRemoteSwiftPackageReference "SwiftfulUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SwiftfulThinking/SwiftfulUI.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.2.0;
+			};
+		};
+		F3F9DA152C1104FA0037FC71 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.4;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F3F9DA102C1104E90037FC71 /* SwiftfulRouting */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F3F9DA0F2C1104E90037FC71 /* XCRemoteSwiftPackageReference "SwiftfulRouting" */;
+			productName = SwiftfulRouting;
+		};
+		F3F9DA132C1104F00037FC71 /* SwiftfulUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F3F9DA122C1104F00037FC71 /* XCRemoteSwiftPackageReference "SwiftfulUI" */;
+			productName = SwiftfulUI;
+		};
+		F3F9DA162C1104FA0037FC71 /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F3F9DA152C1104FA0037FC71 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = F3F9D9F02C1104270037FC71 /* Project object */;
+}
